@@ -1,0 +1,8 @@
+# text is a string (string of characters)
+# first_number is an integer (whole number)
+text = input("Enter a number: ")
+text_2 = input("Enter another number: ")
+first_number = int(text)
+second_number = int(text_2)
+print(first_number+second_number)
+print(type(first_number))
