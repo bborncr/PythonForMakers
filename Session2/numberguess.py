@@ -3,6 +3,7 @@ import random
 gameover = False
 
 choice = random.randint(1, 10)
+print(choice)
 
 print("I am thinking of a number from 1 to 10. ")
 print()

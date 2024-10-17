@@ -12,11 +12,13 @@ if the_light_is_on == True:
 else:
     print("The light is off")
     
-temperature = 28.5
+temperature = 30.0
 
-if temperature <= 25:
+if temperature <= 25.0:
+    # this is the cold section
     print("It's too cold!")
-elif temperature > 25 and temperature <= 27:
+elif temperature > 25.0 and temperature <= 27.0:
     print("It's getting warm!")
-elif temperature > 27:
+elif temperature > 27.0:
     print("It's getting hot!")
+print("done")
