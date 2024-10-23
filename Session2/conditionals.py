@@ -12,7 +12,7 @@ if the_light_is_on == True:
 else:
     print("The light is off")
     
-temperature = 30.0
+temperature = 26.0
 
 if temperature <= 25.0:
     # this is the cold section

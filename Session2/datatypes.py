@@ -25,10 +25,10 @@ age = 25
 full_name = first_name + " " + last_name
 print(full_name)
 # f-strings (the best way to concatenate)
-full_name = f"My name is {first_name} {last_name}. I am {age} years old."
+full_name = f"My name is {full_name}. I am {age} years old."
 print(full_name)
 # boolean = True or False
-the_light_is_on = True
+the_light_is_on = False
 if the_light_is_on:
     print("The light is on")
     # this is the code block
