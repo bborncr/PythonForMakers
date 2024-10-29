@@ -20,13 +20,14 @@ def adder2(a, b):
     c = a + b
     print(c)
     
-adder2(1, 2)
+adder2(2, 3)
 
 # function with parameters and return value
 def adder3(a, b):
     c = a + b
     return c
 
-total = adder3(1, 2)
+adder3(3,4)
+total = adder3(5, 6)
 print(total)
     
