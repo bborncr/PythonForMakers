@@ -1,7 +1,7 @@
 import random
 
 friends = ["James", "Emma", "Michael", "Olivia", "David"]
-hay = friends.copy()
+hat = friends.copy()
 
 # final_list = {"James":"Emma", "Emma":"Michael", "Michael":"Olivia"}  etc.
 final_list = {}
