@@ -1,5 +1,5 @@
 # lists_common_methods.py
-# append(), pop(), extend(), insert(), remove(), index(), count(), len()
+# append(), pop(), extend(), insert(), remove(), index(), count(), len(), copy(), sort()
 animals = ["lion", "tiger", "cougar", "cheetah", "bobcat"]
 animals.extend(["lynx", "puma"])
 print(animals)
@@ -24,3 +24,16 @@ print(x)
 # return the length of elements in the list
 x = len(animals)
 print(x)
+
+# this does NOT copy the list...both cats and animals point to the same list
+cats = animals
+
+# copy the list -- cats and animals are two independent lists
+cats = animals.copy()
+
+print(cats)
+
+cats.sort()
+print(cats)
+print(animals)
+
