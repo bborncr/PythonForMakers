@@ -9,7 +9,7 @@ print(animals)
 animals.sort()
 print(animals)
 
-# tuples are immutabe sequences -- cannot be changed, use less memory, faster
+# tuples are immutable sequences -- cannot be changed, use less memory, faster
 # note the round brackets
 animals = ("lion", "tiger", "cougar", "cheetah")
 print(animals)
@@ -25,7 +25,7 @@ dogs = {
     "Spot":"Collie"
     }
 
-x = dogs["Fifi"]
+x = dogs["Rex"]
 print(x)
 
 

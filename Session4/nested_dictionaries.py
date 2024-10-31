@@ -35,5 +35,7 @@ for student in students:
     print(f"Name: {student['name']}, Age: {student['age']}, Major: {student['major']}")
     print(f"Email: {student['contact']['email']}, Phone: {student['contact']['phone']}")
     
+# x = students[2]['contact']['phone']
+# print(x)
 x = students[2]['contact']['phone']
 print(x)
