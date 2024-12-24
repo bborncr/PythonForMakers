@@ -4,6 +4,7 @@ sorted_data = raw_data.copy()
 sorted_data.sort()
 median = sorted_data[len(sorted_data)//2]
 print(median)
-
-average = sum(raw_data)/16
-print(average)
+print(raw_data)
+raw_data.append(3)
+raw_data.pop(0)
+print(raw_data)
